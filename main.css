@@ -1,0 +1,13 @@
+#to-top a:hover, a:focus {
+    color: #337ab7; /* reset style to unchanged */
+    text-decoration: none; /* reset style to unchanged */
+}
+
+#to-top.affix {
+    bottom: 20px; /* height of link element */
+    right: 40px; /* padding from the right side of the window */
+}
+
+#to-top.affix-bottom {
+    position: absolute;
+}
